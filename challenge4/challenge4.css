@@ -1,0 +1,15 @@
+.container-4{
+    border:2px solid black;
+    margin:0 auto;
+    justify-content:center;
+    padding:10px; 
+    width:75%;
+    text-align:center;
+}
+.flex-box-container-4{
+    border:2px solid black;
+    margin:0 auto;
+    justify-content:space-evenly;
+    padding:10px; 
+display: flex;
+}
