@@ -1,0 +1,49 @@
+.container-5{
+    border:3px solid black;
+    margin:0 auto;
+    width:75%;
+    text-align:center;
+    background-color: rgb(62, 190, 190);
+    font-size:xx-large;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2,.flex-blackjack-row-3{
+    display:flex;
+    border:2px solid black;
+   justify-content:space-evenly ;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction:row;
+    
+    margin:0 auto;
+
+}
+.flex-blackjack-row-1 ,.flex-blackjack-row-2{
+    background-color:rgb(218, 163, 174);
+    color:#fff;
+
+    box-shadow:0 10px 50px rgba(0,0,0.7);
+}
+.flex-blackjack-row-1 div{
+    border:3px solid black;
+    padding:10px;
+    height:350px;
+    text-align:centre;
+    width:450px;
+    flex:1;
+    /*box-shadow:0 10px 50px rgba(0,0,0.7);*/
+}
+.flex-blackjack-row-2 button{
+     border:1px solid black;
+padding: 10px;
+
+}
+table,th,td{
+    border:2px solid black;
+    padding:5px;
+    color:2px solid black;
+}
+.flex-blackjack-row-2 div{
+    border:2px solid black;
+    padding: 10px;
+    justify-content: center;
+}
