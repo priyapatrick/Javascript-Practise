@@ -38,16 +38,17 @@ export function NavBar() {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
+          backgroundColor:"teal"
         }}
       >
-       <br/> <h3>Sorting Algorithms Visualizer</h3><br/>
+       <br/> <h3 style={{backgroundColor:"rosybrown"}}>Sorting Visualizer</h3><br/>
       </div>
-      <AppBar position="static" color="blue">
+      <AppBar style={{backgroundColor:"plum" ,alignItems:"center"}}  position="static" color="blue">
         <Tabs
           value={algorithm}
           onChange={(event, id) => setAlgorithm(id)}
-          indicatorColor="primary"
-          textColor="primary"
+          indicatorColor="secondary"
+          textColor="black"
           variant="scrollable"
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"

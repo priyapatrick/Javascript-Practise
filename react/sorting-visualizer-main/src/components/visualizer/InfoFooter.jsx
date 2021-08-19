@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const InfoFlex = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 `;
 
 export function InfoFooter({ swapCount }) {

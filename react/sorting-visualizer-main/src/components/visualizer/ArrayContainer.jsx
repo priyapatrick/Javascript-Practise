@@ -56,7 +56,7 @@ export function ArrayContainer({
   }
 
   return (
-    <ArrayHolder>
+    <ArrayHolder style={{backgroundColor:"thistle"}}>
       {array.map((value, i) => {
         if (i === source) {
           return (

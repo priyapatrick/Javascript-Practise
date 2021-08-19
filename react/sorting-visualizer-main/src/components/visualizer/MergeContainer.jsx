@@ -71,7 +71,7 @@ export function MergeContainer({
 
   return (
     <>
-      <ArrayHolder>
+      <ArrayHolder style={{backgroundColor:"thistle"}}>
         {items.map((value, i) => {
           if (i === destination) {
             return (

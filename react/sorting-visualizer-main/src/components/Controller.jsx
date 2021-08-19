@@ -112,7 +112,7 @@ export function Controller() {
   }
 
   return (
-    <ControlBar>
+    <ControlBar style={{backgroundColor:"palevioletred"}}>
       <ArrayBar>
         <Button
           variant="contained"
@@ -125,6 +125,7 @@ export function Controller() {
         <TextField
           id="outlined-basic"
           variant="outlined"
+          backgroundColor="white"
           onChange={(event) => arrayDataChangeHandler(event.target.value)}
           value={arrayInput}
           size="small"

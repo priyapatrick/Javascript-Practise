@@ -11,7 +11,7 @@ export function convertArrayStringToArray(string) {
           
 }
 
-export function getRandomArray(length = generateRandomNumberInRange(5, 15)) {
+export function getRandomArray(length = generateRandomNumberInRange(5, 25)) {
   return Array.from(new Array(length), () => generateRandomNumberInRange());
 }
 

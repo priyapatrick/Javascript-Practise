@@ -19,7 +19,7 @@ const FlexWrap = styled.div`
   }
 `;
 
-const flexCenter = { display: "flex", justifyContent: "center" };
+const flexCenter = { display: "flex", justifyContent: "center" ,backgroundColor:"skyblue"};
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -60,7 +60,7 @@ export function AlgoDisplay() {
   return (
     <div style={flexCenter}>
       {sortingAlgorithms.map((algoInfo, idx) => (
-        <TabPanel value={algorithm} index={idx} key={algoInfo.name}>
+        <TabPanel value={algorithm} index={idx} key={algoInfo.name} justifyContent="center">
           <SortManager
             array={sortingArray}
             sortFunction={algoInfo.component}
