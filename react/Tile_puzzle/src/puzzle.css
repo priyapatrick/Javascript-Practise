@@ -1,0 +1,40 @@
+.mainBox {
+  border: 5px solid rgba(0, 0, 0,0.9);
+  width: 380px;
+  height: 380px;
+ 
+  border-radius: 10px;
+}
+.innerBox {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.boxes{
+  font-size: 50px;
+  background-color:plum;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  margin: 2px;
+}
+.boxes:hover{
+  box-shadow: 2px 2px 2px black;
+  color: wheat;
+  font-weight: 1000;
+  cursor: pointer;
+}
+.emptyBox{
+  font-size: 50px;
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+  margin: 2px;
+  color: black;
+  opacity: 0.3;
+}
+.GameComponents{
+  margin: 50px;
+  width: 100%;
+}
