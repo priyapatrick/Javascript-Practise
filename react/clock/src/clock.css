@@ -1,0 +1,47 @@
+.clock{
+    text-align:centre;
+    display:flex;
+    flex-direction: column;
+    border:black 1px;
+    background-color: rgb(241, 236, 236);
+    align-items: center;
+    margin-left: 100px;
+    margin-right:100px;
+}
+.analog-clock {
+    width: 200px;
+    height: 200px;
+    border: solid 5px rgb(70, 2, 2);
+    border-radius: 50%;
+    position: relative;
+    background: rgb(112, 107, 107);
+}
+    .hand {
+      position: absolute;
+      left: 50%;
+      width: 100px;
+      height: 100px;
+      transform-origin: bottom left;
+    }
+      .seconds {
+        border-left:solid 3px blue;
+      }
+      .minutes {
+        border-left:solid 3px #cc0000;
+        
+      }
+      .hours {
+        width: 45px;
+        height: 60px;
+        top: 40px;
+        border-left:solid 3px #000;
+      }
+      .flexbox{
+         
+          display: flex;
+         
+          flex-direction:row;
+          
+      }
+    
+  
