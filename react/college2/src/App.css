@@ -1,0 +1,52 @@
+.head{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: burlywood;
+  
+}
+.grid{
+  display:flex;
+  justify-content: center;
+}
+.sub-head{
+  display: flex;
+  justify-content: center;
+  padding:10px;
+}
+.button{
+ background-color: rgb(179, 109, 109);
+ color: cornsilk;
+ padding:10px;
+}
+
+
+#title {
+  text-align: center;
+  font-family: arial, sans-serif;
+}
+
+#ttable {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+  width: 100%;
+}
+
+#ttable td, #ttable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#ttable tr:nth-child(even){background-color: #f2f2f2;}
+
+
+
+#ttable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: rosybrown;
+  color: white;
+}

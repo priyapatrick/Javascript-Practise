@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Bouncing Ball</title>
+    <style>
+        h3{
+   color:solid blue;
+   font-size: 50px;
+
+}
+canvas{
+    background-color:skyblue;
+    height:400px;
+    width:600px;
+    top:30%;
+    left:30%;
+    position:absolute;
+    border:5px solid black;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <h3>
+            Bouncing ball using Javascript
+        </h3>
+        <canvas>
+
+        </canvas>
+        <script>
+            var canvas=document.querySelector("canvas");
+canvas.width=window.innerWidth;
+canvas.height=window.innerHeight;
+var l=canvas.getContext('2d');
+
+var x=Math.floor(Math.random() * innerWidth);            
+var y=Math.floor(Math.random() * innerHeight);           //circle coordinates
+var sx=4
+var sy=-4         //speed defining variables
+var radius=30;
+move();
+
+function move(){                                 //animation part
+    requestAnimationFrame(move);
+    l.clearRect(0,0,innerWidth,innerHeight);      //clears pixels within the canvas
+    l.beginPath();                 //creating circle
+    l.fillStyle="red";
+    l.arc(x,y,radius,0,Math.PI * 2,false);
+    l.fill();
+    l.strokeStyle="black";
+    l.stroke();
+
+
+//ball bouncing conditions once it hits the edges
+if (radius + x > innerWidth)
+ sx= 0 - sx;
+
+if (x - radius < 0)
+ sx=0 - sx;
+
+if(y+radius>innerHeight)
+ sy= 0 - sy;
+
+if(y- radius < 0)
+ sy=0 - sy;
+
+x=x+sx;
+y=y+sy;
+}
+
+
+    
+
+
+
+
+
+        </script>
+
+    </center>
+
+    
+</body>
+</html>

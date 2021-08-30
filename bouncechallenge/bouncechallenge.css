@@ -1,0 +1,13 @@
+h3{
+   color:solid blue;
+   font-size: 50px;
+
+}
+canvas{
+    background-color:skyblue;
+    height:400px;
+    width:600px;
+    top:25%;
+    left:30%;
+    position:absolute;
+}
